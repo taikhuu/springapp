@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+}
+
+/* Left column */
+
+#side-bar {
+	left: 0;
+  position: fixed;
+  top: 0;
+  margin: 0 !important;
+  height: 100%;
+  width: 250px;
+}
+
+.project-info-panel .module-box li {
+	background-position: 8px 50%;
+}
+
+.icon-user {
+  background-position: 0 50% !important;
+}
+
+/* Center column */
+
+.project-listing {
+	padding: 0 270px;
+  width: 100%;
+}
+
+.project-listing .prj-add {
+	margin-top: 10px;
+}
+
+/* Project list */
+
+.project-listing #project_list .prj {
+	border: 1px solid gray;
+  padding-left: 6px;
+}
+
+.project-listing #project_list .prj:hover, .project-listing #project_list .prj.active {
+	background-color: #BDC3C7;
+}
+
+.project-listing #project_list .prj article {
+	border-left: 1px solid gray;
+	width: 100%;
+}
+
+/* Task list */
+
+.project-listing #task_list .prj {
+	padding: 0 0 0 10px;
+	position: relative;
+}
+
+.project-listing #task_list .prj .prj-handle {
+	height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  padding: 0;
+  width: 10px;
+}
+
+.project-listing #task_list .prj article {
+	width: 100%;
+}
+
+.project-listing #task_list .prj ol {
+	margin: 0;
+}
+
+/* Right column */
+
+.project-panel-creating {
+	border-left: 1px solid gray;
+  height: 100%;
+  margin: 0 !important;
+  overflow-x: hidden;
+  overflow-y: visible;
+  padding: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 250px;
+}
+
+.project-panel-inner {
+	min-height: 100%;
+  padding: 5px 5px 50px;
+  position: relative;
+}
+
+.project-panel-creating .project-info ul {
+
+}
+
+.project-panel-creating .project-info ul li {
+
+}
+
+.project-panel-creating .btn-group {
+	margin: 15px auto;
+	width: 94%;
+}
+
+.project-panel-creating footer {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+	width: 100%;
+}
+
+.project-panel-creating footer .btn-prev, .project-panel-creating footer .btn-share, 
+.project-panel-creating footer .bt-delete, .project-panel-creating footer .btn-next {
+	background-position: center 0;
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.project-panel-creating footer .btn-prev:hover, .project-panel-creating footer .btn-share:hover, 
+.project-panel-creating footer .bt-delete:hover, .project-panel-creating footer .btn-next:hover {
+	opacity: 1;
+}

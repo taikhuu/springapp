@@ -1,0 +1,65 @@
+// ------------------------------------------------------------
+@import "compass/typography/vertical_rhythm";
+@import "compass/css3";
+@import "compass/utilities";
+
+@import "partials/typography";
+@import "partials/reset";
+/*@import "partials/settings";
+@import "partials/forms";
+@import "partials/mixins"; */
+
+@import "vendor/foundation";
+@import "vendor/foundation/fonts";
+
+/* ==========================================================================
+   Customize Foundation Icons
+   ========================================================================== */
+[class*="social foundicon-"]:before {
+  font-family: "SocialFoundicons";
+}
+[class*="general foundicon-"]:before {
+  font-family: "GeneralFoundicons";
+}
+[class*="gen-enclosed foundicon-"]:before {
+  font-family: "GeneralEnclosedFoundicons";
+}
+[class*="accessibility foundicon-"]:before {
+  font-family: "AccessibilityFoundicons";
+}
+
+$Turquoise: #1abc9c;
+$GreenSea: #16a085;
+
+$Emerland: #2ecc71;
+$Nephritis: #27ae60;
+
+$PeterRiver: #3498db;
+$BelizeHole: #2980b9;
+
+$Amethyst: #9b59b6;
+$Wisteria: #8e44ad;
+
+$WetAsphalt: #34495e;
+$MidnightBlue: #2c3e50;
+
+$Sunflower: #f1c40f;
+$Orange: #f39c12;
+
+$Carrot: #e67e22;
+$Pumpkin: #d35400;
+
+$Alizarin: #e74c3c;
+$Pomegranate: #c0392b;
+
+$Clouds: #ecf0f1;
+$Silver: #bdc3c7;
+
+$Concrete: #95a5a6;
+$Asbesto: #7f8c8d;
+
+@import "partials/util";
+@import "modules/icons";
+@import "modules/project-left";
+@import "modules/project-right";
+@import "modules/project-listing";
