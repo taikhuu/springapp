@@ -37,4 +37,10 @@
                  <value>.jsp</value>
               </property>
         </bean>
+ <bean id="wro4jFilter" class="ro.isdc.wro.http.ConfigurableWroFilter">
+ <property name="properties" ref="wro4jProperties"/>
+ </bean>
+ <bean id="wro4jProperties" class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+ <property name="location" value="classpath:wro4j.properties"/>
+ </bean>
  </beans>
