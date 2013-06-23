@@ -6,6 +6,16 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<build>
+	<resources>
+	<resource>
+	<directory>
+	src/main/resources
+	</directory>
+	<filtering>
+	true
+	</filtering>
+	</resource>
+	</resources>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -110,8 +120,27 @@
 			<version>6.0</version>
 			<scope>provided</scope>
 		</dependency>
+		<!-- wro4j -->
+		<dependency>
+			<groupId>ro.isdc.wro4j</groupId>
+			<artifactId>wro4j-core</artifactId>
+			<version>${wro4j.version}</version>
+		</dependency>
+		<dependency>
+    <groupId>ro.isdc.wro4j</groupId>
+    <artifactId>wro4j-extensions</artifactId>
+    <version>${wro4j.version}</version>
+   
+</dependency>
+<!-- google closure -->
+<dependency>
+            <groupId>com.google.javascript</groupId>
+            <artifactId>closure-compiler</artifactId>
+            <version>v20130603</version>
+        </dependency>
 	</dependencies>
 	<properties>
 		<SPRING-VERSION>3.2.2.RELEASE</SPRING-VERSION>
+		<wro4j.version>1.7.0</wro4j.version>
 	</properties>
 </project>
